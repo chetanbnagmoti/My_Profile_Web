@@ -1,41 +1,30 @@
-
-import './App.css';
-import Footer from './Components/Footer';
-import Nav from './Components/Nav';
-import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
-import SingUp from './Components/SignUp';
-import PrivateComponet from './Components/PrivateComponet';
-import Login from './Components/Login';
+import "./App.css";
+import Footer from "./Components/Footer";
+import Nav from "./Components/Nav";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 
+import Conatct from "./Components/Conatct";
+import Home from "./Components/Home";
+import EducationMain from "./Components/EducationMain";
+import ProjectMain from "./Components/ProjectMain";
 
-
-
-
-//App is commonet.
+//App is commonet
 function App() {
-  return  (
+  return (
     <div>
       <BrowserRouter>
-        <Nav/>
+        <Nav />
         <Routes>
-
-          <Route element={<PrivateComponet />}>
-          <Route path='/' element={<ProductList />} ></Route>
-          <Route path='/add' element={<AddProduct />} ></Route>
-          <Route path='/update/:id' element={<UpdateProduct />} ></Route>
-          {/* <Route path='/logout' element={<h1>Logout Components</h1>} ></Route> */}
-          {/* <Route path='/profile' element={<h1>Profile Components</h1>} ></Route> */}
-          </Route>  
-
-          <Route path='/login' element={<Login />} ></Route>
-          <Route path='/signUp' element={<SingUp />} ></Route>
+          <Route path="contact-us" element={<Conatct />} />
+          <Route path="education" element={<EducationMain />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/project' element={<ProjectMain />} />
         </Routes>
-     </BrowserRouter>
-     <Footer/>
+      </BrowserRouter>
+      {/* <Footer /> */}
     </div>
-  )   
-  
+  );
 }
 
 export default App;
