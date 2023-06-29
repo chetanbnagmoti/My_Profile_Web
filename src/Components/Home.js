@@ -12,7 +12,7 @@ function Home() {
   return (
     <React.Fragment>
        
-      <div className="container border border-3 mt-2 mb-3 bg-primary">
+      <div className="container border border-3 mt-2 mb-3  bg-secondary">
         <h1 className="text text-center">Welcome to My Portfolio</h1>
         <hr />
 
