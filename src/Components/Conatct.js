@@ -10,7 +10,7 @@ function Contact() {
   return (
     <React.Fragment>
       <h2>Contact</h2>
-      <div className="container border border-3 p-3">
+      <div className="container">
         <div className="row">
           <div className="col-12">
             <ul className="list-group">

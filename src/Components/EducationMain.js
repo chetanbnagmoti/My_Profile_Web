@@ -8,8 +8,8 @@ function EducationMain() {
       <div className="container">
       <h2>Education</h2>
         <div className="row">
-          <div className="col-md-12">
-            <div className="border border-3 p-3 mb-3">
+          <div className="col-md-12" >
+            <div className="border border-3 p-3 mb-3" style={{backgroundColor:'white'}}>
               <Education
                 course="Post Graduate Diploma in Advance Computing"
                 institution="CDAC New Delhi"
@@ -19,7 +19,7 @@ function EducationMain() {
             </div>
           </div>
           <div className="col-md-12">
-            <div className="border border-3 p-3 mb-3">
+            <div className="border border-3 p-3 mb-3" style={{backgroundColor:'white'}}>
               <Education
                 course="Bachelor of Engineering in Mechanical"
                 institution="Savitribai Phule Pune University"

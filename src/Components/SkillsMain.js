@@ -4,7 +4,7 @@ function SkillsMain(props) {
     const{heading,conatine1,conatine2}=props;
   return (
     <React.Fragment>
-      <div className='conatiner border border-3'>
+      <div className='conatiner border border-3 mt-1 mb-1' style={{backgroundColor:'white'}}>
         <table>
           <thead>
             <tr>

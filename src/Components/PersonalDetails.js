@@ -2,8 +2,10 @@ import React from 'react';
 
 function PersonalDetails() {
   return (
-    <div className="container">
-      <h3>Personal Details</h3>
+    <>
+    <h3>Personal Details</h3>
+    <div className="container" style={{backgroundColor:'white'}}>
+      
       <table className="table">
         <tbody>
           <tr>
@@ -33,6 +35,7 @@ function PersonalDetails() {
         </tbody>
       </table>
     </div>
+    </>
   );
 }
 
