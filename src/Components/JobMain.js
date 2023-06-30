@@ -5,7 +5,7 @@ function JobMain() {
   return (
     <React.Fragment>
       <div className="container">
-        <h2>Work Experience</h2>
+        <h2 className="text text-white">Work Experience</h2>
         <div className="row">
           <div className="col-md-12"> 
             <Job

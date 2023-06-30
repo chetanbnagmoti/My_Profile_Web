@@ -4,7 +4,7 @@ import SkillsMain from './SkillsMain';
 function Skills() {
   return (
     <React.Fragment>
-      <h2>Skills</h2>
+      <h2 className="text text-white">Skills</h2>
       <div className="container" >
       
         <div className="row">

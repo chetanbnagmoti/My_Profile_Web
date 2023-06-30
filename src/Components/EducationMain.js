@@ -6,7 +6,7 @@ function EducationMain() {
     <React.Fragment>
       
       <div className="container">
-      <h2>Education</h2>
+      <h2 className="text text-white">Education</h2>
         <div className="row">
           <div className="col-md-12" >
             <div className="border border-3 p-3 mb-3" style={{backgroundColor:'white'}}>

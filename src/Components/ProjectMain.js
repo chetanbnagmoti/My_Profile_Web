@@ -38,7 +38,7 @@ function ProjectMain() {
   return (
     <React.Fragment>
       <div className="container-fluid" >
-        <h2>Projects</h2>
+        <h2 className="text text-white" >Projects</h2>
         <table className="table table-striped" style={{backgroundColor:'white'}}>
           <thead className="thead-dark">
             <tr>
