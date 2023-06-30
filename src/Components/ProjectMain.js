@@ -26,6 +26,7 @@ function ProjectMain() {
       Skills: "JavaScript, HTML, CSS.",
       Duration: "",
       link: "https://chetanbnagmoti.github.io/Calculator_HTML_CSS_JavaScript/"
+  
     },
     {
       Name: "Students_CURD_API",
