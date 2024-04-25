@@ -178,3 +178,69 @@
   flex: 1;
 }
 
+/* new */
+.about .heading{
+  color: white;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+
+.about .content{
+  color: white;
+  font-size: "16px";
+  font-weight: 400;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  padding: 1rem; /* Adjust the padding as needed */
+  width: 100%; /* Make the element take up the full width of its container */
+}
+
+.custom-tbody tr {
+  margin-bottom: 0.5rem;
+  color: white;
+  font-size: large;
+  font-weight: 400;
+}
+
+.custom-tbody tr td:first-child {
+  color: white;
+  font-size: large;
+  font-weight: 700;
+}
+
+.about .project p{
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color: rgb(240, 142, 15);
+
+}
+
+
+.about .project p span{
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  color: rgb(240, 142, 15);
+
+}
+
+.resume h1{
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif; 
+}
+
+.resume p{
+  color: white;
+  font-size: large;
+  font-weight: 400;
+}
+
+.custom-hr {
+  width: 90%;
+  border: none;
+  height: 5px;
+  background: linear-gradient(to right, #bbc9a9 5%, #a4aa6e 25%, #7fa554 25%, #96a03e 50%, #888f25 50%, #61a026 75%, #1bb42f 75%, #0aa305 100%);
+}

@@ -14,10 +14,7 @@ import React from "react";
 function App() {
   return (
     <React.Fragment>
-     
-
-
-    <div className="conatainer-fluid bg-secondary ">
+    <div className="conatainer-fluid bg-dark ">
       <BrowserRouter>
         <Nav />
         <div className="conatiner mb-3">
