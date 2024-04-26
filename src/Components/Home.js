@@ -1,6 +1,7 @@
 import React from "react";
 import myImage from "../accets/images/my.jpg";
 import airport from "../accets/images/homepage.jpg";
+import gitImage from "../accets/images/git.jpg";
 import { useMediaQuery } from "react-responsive";
 
 const projects = [
@@ -9,28 +10,32 @@ const projects = [
     title: "Digital Music Store Data Analysis using SQL",
     description:
       "Analyzed music store data using advanced SQL queries to identify gaps and increase business growth.",
-    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROaVOG79tRrh89_ds97qFvY7OkGS4HwO0VD0zCbC0LqA&s", // Assuming airport is the variable holding the image URL
+    imageUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROaVOG79tRrh89_ds97qFvY7OkGS4HwO0VD0zCbC0LqA&s", // Assuming airport is the variable holding the image URL
   },
   {
     id: 2,
     title: "Data Analysis using Python Project for Beginners",
     description:
       "Performed exploratory data analysis on diwali sales data using Python to improve the customer experience.",
-    imageUrl: 'https://www.shutterstock.com/image-photo/presentation-project-management-areas-knowledge-600nw-706715482.jpg',
+    imageUrl:
+      "https://www.shutterstock.com/image-photo/presentation-project-management-areas-knowledge-600nw-706715482.jpg",
   },
   {
     id: 3,
     title: "Power BI Sales dashboard Project for Beginners",
     description:
       "Designed a power bi dashboard for Madhav Store to track and analyze the online sales data acorss India.",
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXlJpbjY0FHwS4O_WZ_M6zApCpydsE-xXPkkXc7QY0yA&s', // Assuming airport is the variable holding the image URL
+    imageUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXlJpbjY0FHwS4O_WZ_M6zApCpydsE-xXPkkXc7QY0yA&s", // Assuming airport is the variable holding the image URL
   },
   {
     id: 4,
     title: "Sales Forecast- Time Series Forecasting",
     description:
       "Used multiple machine learning models to forecast sales (retail store) and performed time series analysis.",
-    imageUrl: 'https://img.freepik.com/free-photo/business-data-analysis_53876-95296.jpg', // Assuming airport is the variable holding the image URL
+    imageUrl:
+      "https://img.freepik.com/free-photo/business-data-analysis_53876-95296.jpg", // Assuming airport is the variable holding the image URL
   },
   {
     id: 5,
@@ -59,7 +64,7 @@ function Home() {
                       isSmallScreen
                         ? "justify-content-center"
                         : "justify-content-start"
-                    } align-items-center border border-primary border-3 mt-2`}
+                    } align-items-center  mt-2`}
                     style={{ gap: "1rem" }}
                   >
                     <div
@@ -86,7 +91,7 @@ function Home() {
                       />
                     </div>
                     <div
-                      className={`border border-1 ${
+                      className={` ${
                         isSmallScreen
                           ? "d-flex justify-content-center align-items-center "
                           : ""
@@ -97,7 +102,10 @@ function Home() {
                           isSmallScreen ? "" : "table-responsive"
                         } text-white`}
                       >
-                        <table className="table table-dark table-borderless">
+                        <table
+                          className="table text-white  table-borderless "
+                          style={{ fontSize: "18px" }}
+                        >
                           <tbody>
                             <tr>
                               <td>Name</td>
@@ -299,6 +307,7 @@ function Home() {
               learning algorithms and project management.
             </p>
           </div>
+          {/* Experience */}
           <div className="col-lg-12 text-center resume mb-5">
             <h1 className="pt-5 pb-2">Experience</h1>
             <hr className="custom-hr" />
@@ -481,7 +490,7 @@ function Home() {
             </p>
             <div className="container mt-5">
               <div className="row justify-content-center">
-                {projects.map((project,index) => (
+                {projects.map((project, index) => (
                   <div
                     key={index}
                     className="col-lg-4 col-md-6 mb-3 d-flex justify-content-center"
@@ -497,9 +506,7 @@ function Home() {
                         style={{ height: "200px" }}
                       />
                       <div className="card-body">
-                        <h5 className="card-title">
-                          {project.title}
-                        </h5>
+                        <h5 className="card-title">{project.title}</h5>
                         <p className="card-text text-muted">
                           {project.description}
                         </p>
@@ -512,6 +519,347 @@ function Home() {
                 ))}
               </div>
             </div>
+          </div>
+
+          {/* {git } */}
+          <div
+            className="col-lg-12 text-center resume mb-5"
+            style={{
+              position: "relative",
+              height: "400px",
+              marginTop: "100px",
+            }}
+          >
+            <img
+              src={gitImage}
+              alt="git.png"
+              className="img-fluid img-responsive"
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                opacity: "0.6",
+              }}
+            />
+            <div
+              style={{
+                position: isSmallScreen ? "" : "absolute",
+                top: isSmallScreen ? "-50%" : "0%",
+                left: isSmallScreen ? "0%" : "50%",
+                transform: isSmallScreen
+                  ? "translate(0%, 0%)"
+                  : "translate(-50%, -50%)",
+                width: "100%",
+              }}
+            >
+              <div className="container mt-3 text-center">
+                <div className="row justify-content-center">
+                  <div className="col-lg-3 col-md-6 mb-3">
+                    <div
+                      className="card text-white shadow-lg p-2"
+                      style={{
+                        maxWidth: "100%",
+                        backgroundColor: "rgb(25, 40, 50)",
+                      }}
+                    >
+                      <div className="card-body">
+                        <h3 className="card-title text-warning">20</h3>
+                        <p className="card-text text-white">Achievements</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-3 col-md-6 mb-3">
+                    <div
+                      className="card text-white shadow-lg p-2"
+                      style={{
+                        maxWidth: "100%",
+                        backgroundColor: "rgb(25, 40, 50)",
+                      }}
+                    >
+                      <div className="card-body">
+                        <h3 className="card-title text-warning">30</h3>
+                        <p className="card-text text-white">Projects</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-3 col-md-6 mb-3">
+                    <div
+                      className="card text-white shadow-lg p-2"
+                      style={{
+                        maxWidth: "100%",
+                        backgroundColor: "rgb(25, 40, 50)",
+                      }}
+                    >
+                      <div className="card-body">
+                        <h3 className="card-title text-warning">1,000</h3>
+                        <p className="card-text text-white">
+                          Mentored Students
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-3 col-md-6 mb-3">
+                    <div
+                      className="card text-white shadow-lg p-2"
+                      style={{
+                        maxWidth: "100%",
+                        backgroundColor: "rgb(25, 40, 50)",
+                      }}
+                    >
+                      <div className="card-body">
+                        <h3 className="card-title text-warning">500</h3>
+                        <p className="card-text text-white">Cups of coffee</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "50%",
+                left: "50%",
+                transform: "translate(-50%, -50%)",
+              }}
+            >
+              <h1 className="text-white">
+                More projects on <span className="text-warning">Github</span>{" "}
+              </h1>
+              <p
+                className="text-white"
+                style={{ fontSize: "larger", fontWeight: "700" }}
+              >
+                I love to solve business problems & uncover hidden data stories
+              </p>
+              <div className="">
+                <a
+                  role="button"
+                  href="https://www.linkedin.com/"
+                  className="btn btn-warning btn-outline-primary text-dark btn-lg border border-dark rounded-pill w-50"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* contact me */}
+          <div className="col-lg-12 text-center resume mb-5">
+            <h1 className="pt-5 pb-2">Contact Me</h1>
+            <hr className="custom-hr" />
+            <p>Below are the details to reach out to me!</p>
+            <div className="container mt-5">
+              <div className="row justify-content-center">
+                <div className="col-lg-3 col-md-6 mb-3 d-flex flex-column justify-content-between align-items-center">
+                  <div
+                    style={{
+                      backgroundColor: "rgb(25, 40, 50)",
+                      width: "100px",
+                      height: "100px",
+                      borderRadius: "50%",
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      marginBottom: "20px",
+                    }}
+                  >
+                    <h1 className="text-white">
+                      <i className="bi bi-house text-warning"></i>
+                    </h1>
+                  </div>
+                  <div className="text-white" style={{ marginBottom: "20px" }}>
+                    Address
+                  </div>
+                  <div className="text-white">Bengaluru, India</div>
+                </div>
+                <div className="col-lg-3 col-md-6 mb-3 d-flex flex-column justify-content-between align-items-center">
+                  <div
+                    style={{
+                      backgroundColor: "rgb(25, 40, 50)",
+                      width: "100px",
+                      height: "100px",
+                      borderRadius: "50%",
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      marginBottom: "20px",
+                    }}
+                  >
+                    <h1 className="text-white">
+                      <i className="bi bi-telephone text-warning"></i>
+                    </h1>
+                  </div>
+                  <div className="text-white" style={{ marginBottom: "20px" }}>
+                    CONTACT NUMBER
+                  </div>
+                  <div className="text-white">+ 0 101 0101 101</div>
+                </div>
+                <div className="col-lg-3 col-md-6 mb-3 d-flex flex-column justify-content-between align-items-center">
+                  <div
+                    style={{
+                      backgroundColor: "rgb(25, 40, 50)",
+                      width: "100px",
+                      height: "100px",
+                      borderRadius: "50%",
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      marginBottom: "20px",
+                    }}
+                  >
+                    <h1 className="text-white">
+                      <i className="bi bi-send text-warning"></i>
+                    </h1>
+                  </div>
+                  <div className="text-white" style={{ marginBottom: "20px" }}>
+                    EMAIL ADDRESS
+                  </div>
+                  <div className="text-white">conctact@domainname.com</div>
+                </div>
+                <div className="col-lg-3 col-md-6 mb-3 d-flex flex-column justify-content-between align-items-center">
+                  <div
+                    style={{
+                      backgroundColor: "rgb(25, 40, 50)",
+                      width: "100px",
+                      height: "100px",
+                      borderRadius: "50%",
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      marginBottom: "20px",
+                    }}
+                  >
+                    <h1 className="text-white">
+                      <i className="bi bi-cloud-arrow-down text-warning"></i>
+                    </h1>
+                  </div>
+                  <div className="text-white" style={{ marginBottom: "20px" }}>
+                    DOWNLOAD RESUME
+                  </div>
+                  <div className="text-white">resumelink</div>
+                </div>
+              </div>
+              <div
+                className="row d-flex flex-column justify-content-center align-items-center"
+                style={{ marginTop: "50px" }}
+              >
+                <div
+                  className="col-lg-12 text-white"
+                  style={{ fontSize: "25px", fontWeight: "800" ,margin:'25px'}}
+                >
+                  Find me on
+                </div>
+                <div className="d-flex flex-row justify-content-center align-items-center" style={{gap:'1rem'}}>
+                <div
+                  style={{
+                    backgroundColor: "rgb(25, 40, 50)",
+                    width: "50px",
+                    height: "50px",
+                    borderRadius: "50%",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    marginBottom: "20px",
+                  }}
+                >
+                  <i className="bi bi-youtube text-warning" style={{ fontSize: "24px" }}></i>
+                 
+                </div>
+                <div
+                  style={{
+                    backgroundColor: "rgb(25, 40, 50)",
+                    width: "50px",
+                    height: "50px",
+                    borderRadius: "50%",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    marginBottom: "20px",
+                  }}
+                >
+                  <i
+                    className="bi bi-cloud-arrow-down text-warning"
+                    style={{ fontSize: "24px" }}
+                  ></i>
+                </div>
+                <div
+                  style={{
+                    backgroundColor: "rgb(25, 40, 50)",
+                    width: "50px",
+                    height: "50px",
+                    borderRadius: "50%",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    marginBottom: "20px",
+                  }}
+                >
+                 
+                  <i
+                    className="bi bi-linkedin text-warning"
+                    style={{ fontSize: "24px" }}
+                  ></i>
+                </div>  
+                <div
+                  style={{
+                    backgroundColor: "rgb(25, 40, 50)",
+                    width: "50px",
+                    height: "50px",
+                    borderRadius: "50%",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    marginBottom: "20px",
+                  }}
+                >
+                  <i
+                    className="bi bi-twitter text-warning"
+                    style={{ fontSize: "24px" }}
+                  ></i>
+                </div>   
+                <div
+                  style={{
+                    backgroundColor: "rgb(25, 40, 50)",
+                    width: "50px",
+                    height: "50px",
+                    borderRadius: "50%",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    marginBottom: "20px",
+                  }}
+                >
+                  <i
+                    className="bi bi-facebook text-warning"
+                    style={{ fontSize: "24px" }}
+                  ></i>
+                </div> 
+                <div
+                  style={{
+                    backgroundColor: "rgb(25, 40, 50)",
+                    width: "50px",
+                    height: "50px",
+                    borderRadius: "50%",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    marginBottom: "20px",
+                  }}
+                >
+                  <i
+                    className="bi bi-instagram text-warning"
+                    style={{ fontSize: "24px" }}
+                  ></i>
+                </div>       
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* copyrigth */}
+          <div className="col-lg-12 text-center resume mb-5">
+          Copyright ©2024 All rights reserved | This template is made with <i class="bi bi-heart-fill"></i>  by Colorlib
           </div>
         </div>
       </div>

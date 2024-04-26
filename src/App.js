@@ -14,7 +14,7 @@ import React from "react";
 function App() {
   return (
     <React.Fragment>
-    <div className="conatainer-fluid bg-dark ">
+    <div className="conatainer-fluid" style={{backgroundColor:'black'}}>
       <BrowserRouter>
         <Nav />
         <div className="conatiner mb-3">
