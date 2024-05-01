@@ -5,7 +5,7 @@ function Nav() {
   const navigate = useNavigate();
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top " style={{backgroundColor:'black'}}>
       <div className="container justify-content-center">
         <Link className="navbar-brand" to="/">
           My Portfolio
@@ -29,17 +29,17 @@ function Nav() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/education">
+              <Link className="nav-link">
                 Education
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/project">
+              <Link className="nav-link">
                 Project
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact-us">
+              <Link className="nav-link">
                 Contact
               </Link>
             </li>
