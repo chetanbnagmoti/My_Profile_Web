@@ -1,6 +1,6 @@
 import "./App.css";
 import Nav from "./Components/Nav";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes,Navigate  } from "react-router-dom";
 import Home from "./Components/Home";
 import React from "react";
 
@@ -13,9 +13,11 @@ function App() {
       <BrowserRouter>
         <Nav />
         <div className="conatiner mb-3">
-      <Routes>
-          <Route path='/' element={<Home />} />
-        </Routes>
+        <Routes>
+      <Route path="/" element={<Home />} />
+      {/* Define default route */}
+      <Route path="*" element={<Navigate to="/" />} />
+    </Routes>
       </div>
 
       </BrowserRouter>
