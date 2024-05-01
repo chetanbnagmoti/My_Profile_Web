@@ -24,7 +24,7 @@ function Nav() {
         <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" to="/My_Profile_Web/">
                 Home
               </Link>
             </li>

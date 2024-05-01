@@ -14,7 +14,7 @@ function App() {
         <Nav />
         <div className="conatiner mb-3">
         <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/My_Profile_Web/" element={<Home />} />
       {/* Define default route */}
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>
