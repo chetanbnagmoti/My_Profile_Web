@@ -122,7 +122,7 @@ const ContactMe = () => {
 
               {/*find me */}
               <div
-                className="row d-flex flex-column justify-content-center align-items-center"
+                className="row d-flex justify-content-center align-items-center"
                 style={{ marginTop: "50px" }}
               >
                 <div
@@ -137,7 +137,7 @@ const ContactMe = () => {
                 </div>
                 <div
                   className="d-flex flex-row justify-content-center align-items-center"
-                  style={{ gap: "1rem" }}
+                  style={{ gap: "0.5rem" }}
                 >
 
 

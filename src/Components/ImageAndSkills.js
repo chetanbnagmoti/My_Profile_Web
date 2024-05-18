@@ -63,31 +63,45 @@ const skills = [
 
 
 
-  const selfInfo = [
-    {
-      id: 1,
-      heading: "Name",
-      details: "Chetan Nagmoti",
-    },
-    {
-      id: 2,
-      heading: "Job Role",
-      details: "MERN Full Stack Developer",
-    },
-    {
-      id: 3,
-      heading: "Experience",
-      details: "2 Years 11 Months",
-    },
-    {
-      id: 4,
-      heading: "Address",
-      details: "Mumabi, India",
-    },
-  ];
+ 
 
 const ImageAndSkills = () => {
     const isSmallScreen = useMediaQuery({ maxWidth: 768 });
+    const currentDate=new Date();
+    const d = new Date("2021-8-01");
+    const diffTime = Math.abs(currentDate - d);
+    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+    let years = Math.floor(diffDays / 365);
+    let remainingDays = diffDays % 365;
+    let months = Math.floor(remainingDays / 30);
+    remainingDays = remainingDays % 30;
+    const exp=years + " years, " + months + " months, and " + remainingDays + " days."
+
+
+  
+    const selfInfo = [
+      {
+        id: 1,
+        heading: "Name",
+        details: "Chetan Nagmoti",
+      },
+      {
+        id: 2,
+        heading: "Job Role",
+        details: "MERN Full Stack Developer",
+      },
+      {
+        id: 3,
+        heading: "Experience",
+        details: exp
+      },
+      {
+        id: 4,
+        heading: "Address",
+        details: "Mumabi, India",
+      },
+    ];
+
   return (
    <>
     <div className="col-lg-5">

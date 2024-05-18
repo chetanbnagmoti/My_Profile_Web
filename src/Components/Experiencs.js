@@ -7,7 +7,7 @@ const experienceDetails=[
       position:'MERN Full Stack Developer',
       companyInfo:{
         companyName:'SaveEat',
-        companyDetails:`At SaveEat, we share a common goal of 🌱 creating a zero food waste India. Together, we can benefit the 🍴 customers, the 🍽️ restaurants, and the 🌍 planet. Let's join hands 👫 for a better future. At SaveEat, we share a common goal of 🌱 creating a zero food waste India. Together, we can benefit the 🍴 customers, the 🍽️ restaurants, and the 🌍 planet. Let's join hands 👫 for a better future.`,
+        companyDetails:`At SaveEat, we share a common goal of 🌱 creating a zero food waste India. Together, we can benefit the 🍴 customers, the 🍽️ restaurants, and the 🌍 planet. Let's join hands 👫 for a better future.`,
         workingDetails:[
           {
             info:1,
@@ -55,7 +55,7 @@ const experienceDetails=[
         workingDetails:[
           {
             info:1,
-            details:`Built server-side applications and APIs with Node.js.Resolved technical issues promptly to ensure high-quality project delivery.`
+            details:`Resolved technical issues promptly to ensure high-quality project delivery.`
           },
           {
             info:2,

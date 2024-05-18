@@ -6,7 +6,7 @@ function Nav() {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top " style={{backgroundColor:'black'}}>
-      <div className="container justify-content-center">
+      <div className="container justify-content-between ">
         <Link className="navbar-brand" to="/">
           My Portfolio
         </Link>
