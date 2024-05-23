@@ -154,7 +154,7 @@ const ImageAndSkills = () => {
                       >
                         <table
                           className="table text-white  table-borderless "
-                          style={{ fontSize: "18px" }}
+                          style={{ fontSize: "17px" }}
                         >
                           <tbody>
                             {
