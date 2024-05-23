@@ -9,7 +9,7 @@ const aboutTable=[
     {
       id:2,
       heading:'Domain:',
-      details:'Retail, Ecommerce, BFSI & Digital Marketing'
+      details:'Retail, Ecommerce, & Digital Marketing'
     },
     {
       id:3,

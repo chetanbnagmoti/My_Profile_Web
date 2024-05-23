@@ -1,6 +1,6 @@
 import React from 'react'
 import { useMediaQuery } from "react-responsive";
-import myImage from "../accets/images/my.jpg";
+import myImage from "../accets/images/Profile-2.jpg";
 
 
 const skills = [

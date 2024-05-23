@@ -25,22 +25,22 @@ function Nav() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link className="nav-link" to="/My_Profile_Web/">
-                Home
+                {/* Home */}
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link">
-                Education
+                {/* Education */}
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link">
-                Project
+                {/* Project */}
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link">
-                Contact
+                {/* Contact */}
               </Link>
             </li>
           </ul>

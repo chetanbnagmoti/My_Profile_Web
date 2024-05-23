@@ -1,9 +1,30 @@
 import React from 'react'
 import airport from "../accets/images/homepage.jpg";
+import brand from "../accets/images/BrandPanle.PNG";
 
 const projects = [
   {
     id: 1,
+    title: "Binnys Jewellary Web-Site",
+    skills: "React.js, Framer Motion, Three.js, Bootstrap",
+    duration: "2024 Jan To Present",
+    link: "https://binnysgroups.netlify.app/",
+    description:
+      "This website is developed for Binny's Jewelry, a company specializing in high-quality jewelry. The site showcases a wide range of jewelry items using modern web technologies.",
+    imageUrl:
+      "https://cfw42.rabbitloader.xyz/eyJjIjp0cnVlLCJoIjoiYnJpamRlc2lnbnN0dWRpby5jb20iLCJ2IjozMTMxNDg4NTM0LCJpIjoiNDllNjE3MTUtYjRhZC00OTA0LWZiYzktNjQyNzNlZDk2MzAwIn0/wp-content/uploads/2024/04/1-1.webp",
+  },
+  {
+    id: 2,
+    title: "Brand Panel for Restaurant",
+    skills: "React.js, Node.js, Express.js, Material UI, MSG-91, Nodemailer, Bootstrap",
+    duration: "2023 Aug To Present",
+    link: "http://businessportal.saveeat.in/",
+    description: "This dashboard is used by restaurants to manage their brand. It allows restaurants to add their products, manage choices, apply discounts, and more.",
+    imageUrl: brand
+  },
+  {
+    id: 3,
     title: "Pizza Delivery System",
     skills: "Node.js, React.js, Express.js, MongooDB, Socket.io, Nodemailer, RazorPay",
     duration: "June 2023 to Present",
@@ -14,7 +35,7 @@ const projects = [
       "https://www.shutterstock.com/shutterstock/photos/1427946764/display_1500/stock-vector-pepperoni-pizza-ads-with-delicious-ingredients-on-chalkboard-background-in-d-illustration-1427946764.jpg", // Assuming airport is the variable holding the image URL
   },
   {
-    id: 2,
+    id: 4,
     title: "Alumni Management System",
     skills: "Node.js, React.js, Express.js, MongooDB",
     duration: "June 2023 to Present",
@@ -25,7 +46,7 @@ const projects = [
       "https://itechindia.co/wp-content/uploads/2020/01/Blog-Image-2.png"
   },
   {
-    id: 3,
+    id: 5,
     title: "Student Management System API",
     skills: "Spring Boot, Java, API",
     duration: "",
@@ -36,7 +57,7 @@ const projects = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMPU2Jj24Iqhj9GQgBTEdXXXv6FouJdkKcWqtlHfio5Ohbu-jEP0Xy5omv2ZcAzktfHFU&usqp=CAU",
   },
   {
-    id: 4,
+    id: 6,
     title: "Calculator",
     skills: "JavaScript, HTML, CSS.",
     duration: "",
@@ -47,7 +68,7 @@ const projects = [
       "https://st2.depositphotos.com/39463116/46134/i/450/depositphotos_461343064-stock-photo-word-inscription-project-business-financial.jpg", // Assuming airport is the variable holding the image URL
   },
   {
-    id: 5,
+    id: 7,
     title: "Weather_App",
     skills: "HTML, CSS, Bootstrap, and JavaScript. It leverages a third-party OpenWeatherMap API to provide real-time weather information to users.",
     duration: "Sep 2022 to Mar 2023",
@@ -58,7 +79,7 @@ const projects = [
       "https://st.depositphotos.com/1258191/57393/i/450/depositphotos_573937116-stock-photo-hand-holding-smartphone-weather-forecast.jpg", // Assuming airport is the variable holding the image URL
   },
   {
-    id: 6,
+    id: 8,
     title: "Airline Reservation System",
     skills: "Spring Boot, My-SQL, HTML, CSS, React JS, Bootstrap, Email.js and Axios",
     duration: "Sep 2022 to Mar 2023",
