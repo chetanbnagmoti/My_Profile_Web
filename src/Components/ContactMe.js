@@ -7,7 +7,7 @@ const contactMe=[
       id:1,
       icon:'bi bi-house',
       name:'ADDRESS',
-      content:'Mumbai,Maharashtra',
+      content:'Dhule,Maharashtra',
     },
     {
       id:2,
