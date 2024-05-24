@@ -98,7 +98,7 @@ const ImageAndSkills = () => {
       {
         id: 4,
         heading: "Address",
-        details: "Mumabi, India",
+        details: "Dhule,Maharashtra",
       },
     ];
 
