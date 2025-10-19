@@ -58,11 +58,36 @@ const AboutUs = () => {
             I have worked extensively on complex API integrations, including:
           </p>
           <ul>
-            <li>Zoho ↔️ TempLogger</li>
-            <li>TempLogger ↔️ Zoho</li>
-            <li>Double Tick ↔️ Zoho</li>
-            <li>Gati ↔️ Zoho</li>
-            <li> Bigin Double Tick ↔️ Zoho Bigin</li>
+            <li>
+              <a href="" style={{ color: "red" }}>
+                {" "}
+                Zoho ↔️ TempLogger
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a href="" style={{ color: "red", border: "none" }}>
+                TempLogger ↔️ Zoho
+              </a>{" "}
+            </li>
+            <li>
+              {" "}
+              <a href="" style={{ color: "red", border: "none" }}>
+                Double Tick ↔️ Zoho
+              </a>{" "}
+            </li>
+            <li>
+              {" "}
+              <a href="" style={{ color: "red", border: "none" }}>
+                Gati ↔️ Zoho
+              </a>{" "}
+            </li>
+            <li>
+              {" "}
+              <a href="" style={{ color: "red", border: "none" }}>
+                Bigin Double Tick ↔️ Zoho Bigin
+              </a>{" "}
+            </li>
           </ul>
           <p>
             During this period, I have written and optimized several intricate
