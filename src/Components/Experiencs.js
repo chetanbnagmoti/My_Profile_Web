@@ -105,7 +105,7 @@ const experienceDetails = [
   },
   {
     id: 3,
-    year: "Jun 2020 – April 2023",
+    year: "Aug 2021 – April 2022",
     position: "Full Stack Developer",
     companyInfo: {
       companyName: "Freelance | Self Employed",
